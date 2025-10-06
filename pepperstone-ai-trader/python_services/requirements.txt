@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+feedparser
+sentence-transformers
+transformers
+torch
+scikit-learn
+xgboost
+joblib
