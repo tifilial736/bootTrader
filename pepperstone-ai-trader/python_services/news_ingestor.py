@@ -1,3 +1,5 @@
+# news_ingestor.py
+%%writefile news_ingestor.py
 import os
 import requests
 import json
