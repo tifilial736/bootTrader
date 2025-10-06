@@ -1,9 +1,20 @@
 from fastapi import FastAPI
-from signal_publisher import load_processed_news, generate_signals
 import nest_asyncio
 import uvicorn
+import joblib
+import os
+from signal_publisher import load_processed_news, generate_signals
 
 app = FastAPI()
+
+MODEL_PATH = "model.pkl"
+
+# Carregar modelo de forma segura
+try:
+    model = joblib.load(MODEL_PATH)
+except FileNotFoundError:
+    print("Modelo não encontrado, treine antes de usar")
+    model = None
 
 @app.get("/generate_signals")
 def api_generate_signals():
