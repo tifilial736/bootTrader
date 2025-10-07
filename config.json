@@ -1,4 +1,7 @@
 {
+    "exchange": "binance",
   "api_key": "G3pIUC69MY1rE3hIEb7Wrx91GlKuzcK1uGFST8cgU4QO1uCVlxxx2TUI800Rfepv",
-  "api_secret": "m0NFW5HZmvyWs91DY5iCQx9iWrr5gbGK66EDqSepZfwEbRLgk2qG6H1CaywXLmhz"
+  "api_secret": "m0NFW5HZmvyWs91DY5iCQx9iWrr5gbGK66EDqSepZfwEbRLgk2qG6H1CaywXLmhz",
+  "testnet": true
+    
 }
