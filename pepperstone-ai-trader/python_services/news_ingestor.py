@@ -6,7 +6,7 @@ import os
 import requests
 import json
 
-NEWSAPI_KEY = "COLOQUE_SUA_CHAVE_AQUI"
+NEWSAPI_KEY = "1d6447f248524d899582f6d7284fbcde"
 
 def get_news(query="forex", page_size=10):
     if not NEWSAPI_KEY:
