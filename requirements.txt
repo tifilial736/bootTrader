@@ -1,0 +1,9 @@
+%%writefile requirements.txt
+fastapi
+uvicorn
+nest_asyncio
+requests
+sentence-transformers
+joblib
+pandas
+pyngrok
